@@ -1,5 +1,6 @@
 package com.bitbreeds.p2p.wrapper
 
+import com.bitbreeds.p2p.peer.Peer
 import kotlin.test.Test
 
 /*

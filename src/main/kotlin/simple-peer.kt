@@ -4,6 +4,8 @@ import kotlin.random.Random
 
 /*
  * Copyright (c) Jonas Waage 09/06/2020
+ *
+ * Kotlin definitions and extension for https://github.com/feross/simple-peer
  */
 
 @JsModule("simple-peer")

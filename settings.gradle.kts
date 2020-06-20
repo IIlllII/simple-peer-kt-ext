@@ -1,2 +1,2 @@
-rootProject.name = "kt-simple-peer"
+rootProject.name = "simple-peer-kt-ext"
 
