@@ -3,6 +3,8 @@ plugins {
     id("maven-publish")
 }
 
+
+
 group = "com.bitbreeds.p2p"
 version = "1.0-SNAPSHOT"
 
@@ -12,6 +14,8 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-js"))
+    api(npm("simple-peer","9.7.2"))
+
     testImplementation(kotlin("test-js"))
 }
 
@@ -22,7 +26,9 @@ kotlin.target.browser {
             useChromeHeadless()
         }
     }
+
 }
+
 
 publishing {
     publications {
