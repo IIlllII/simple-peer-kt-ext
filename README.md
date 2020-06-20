@@ -1,6 +1,6 @@
 simple-peer-kt-ext
 -------------------------
-Kotlin definitions and extension for [simple-peer](https://github.com/feross/simple-peer)
+Kotlin definitions and extension for the awesome [simple-peer](https://github.com/feross/simple-peer)
 Meant to be used in kotlin javascript projects.
 
 ## Gradle use
@@ -13,8 +13,9 @@ dependencies {
 ```
 
 ## Use
-See [simple-peer](https://github.com/feross/simple-peer)
-The first example there can be implemented like this.
+For use of simple peer, see [https://github.com/feross/simple-peer](https://github.com/feross/simple-peer).
+The first example there can be implemented like this using kotlin.
+
 In a real case, peers need to be in different browsers, and
 share signals over some other communication (typically websocket).
 ```
