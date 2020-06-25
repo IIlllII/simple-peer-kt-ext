@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "com.bitbreeds.p2p"
-version = "0.1-SNAPSHOT"
+version = "0.1"
 
 repositories {
     mavenCentral()
