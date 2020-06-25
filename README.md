@@ -7,7 +7,7 @@ Meant to be used in kotlin javascript projects.
 Add to build.gradle.kts
 ```
 dependencies {
-    implementation("com.bitbreeds.p2p","simple-peer-kt-ext","1.0-SNAPSHOT")
+    implementation("com.bitbreeds.p2p","simple-peer-kt-ext","0.1-SNAPSHOT")
     implementation(npm("simple-peer","9.7.2"))
 }
 ```
